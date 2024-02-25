@@ -1,0 +1,123 @@
+.footerBlack{
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+}
+
+.footerBlack li{
+    text-decoration: none;
+    color: white;
+}
+
+.footerBlack a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* first sectoin of bottom  navigation desing starts here  */
+.footerTop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+
+/* first container */
+.bottom_contact_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.direct_contact div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.direct_contact p{
+    margin: 0px;
+}
+
+.social_contact{
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    align-items: center;
+    gap: 40px;
+}
+
+.bottom_contact_details a{
+    text-decoration: none;
+    color: white;
+}
+
+/* second container */
+.bottom_location_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* third container */
+.bottom_link_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom_link_section li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.bottom_contact_details, .bottom_link_section, .bottom_location_details{
+    flex-basis: 100%;
+    max-width: 400px;
+    min-height: 300px;
+}
+/* first section of bottom navigation design ends here */
+
+/* navigation section link starts here */
+.navigationLinkBottom{
+    display: flex;
+    align-self: flex-start;
+}
+.navigationLinkBottom:hover{
+    color: cornflowerblue;
+
+}
+
+
+
+
+/* copyright section starts here */
+.bottom_link_style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    align-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+
+
+/* copyright section ends here  */
+
+/* css improvement for bootstrap */
+dl,ol,ul{
+    margin: 0px;
+    padding: 0px;
+}

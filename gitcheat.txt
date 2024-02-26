@@ -1,0 +1,5 @@
+adding remote origin  git remote add origin "remote url"
+tracking files : "git add "filename"
+commiting files : "git commit -m "this is first message"
+adding commit to new branch : git branch -m "branch Name"
+git push origin branch

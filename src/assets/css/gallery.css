@@ -1,0 +1,94 @@
+.gallerymainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image1{
+    height: 60%;
+    width: 50%;
+    background-color: maroon;
+}
+
+.image2{
+    height: 40%;
+    width: 50%;
+    background-color: rgb(148, 155, 148);
+}
+.image3{
+    height: 30%;
+    width: 50%;
+    background-color: rgb(32, 189, 32);
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(171, 59, 59);
+}
+.image4{
+    height: 40%;
+    width: 50%;
+    background-color: rgb(32, 189, 32);
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(168, 12, 12);
+}
+.image5{
+    height: 30%;
+    width: 50%;
+    background-color: rgb(32, 189, 32);
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(255, 213, 213);
+}
+
+/* small device media query */
+@media screen and (max-width:600px){
+    .gallerymainContainer{
+        
+    }
+    .image_Container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 300px;
+        width: 300px;
+       
+    }
+}
+
+
+/* medium device media query */
+@media screen and (min-width:601px) and (max-width:1280px){
+    .gallerymainContainer{
+        
+    }
+    .image_Container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 350px;
+        width: 350px;
+       
+    }
+}
+
+
+/* large device media query */
+@media screen and (min-width:1281px){
+    .gallerymainContainer{
+       
+    }
+    .image_Container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 400px;
+        width: 400px;
+       
+    }
+}
+

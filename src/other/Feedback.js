@@ -2,7 +2,6 @@ function Feedback(){
     return(
         <>
             <form>
-
                 <input type="text" placeholder="Name"/>
                 <input type="text" placeholder="College"/>
                 <input type="text" placeholder="Department"/>

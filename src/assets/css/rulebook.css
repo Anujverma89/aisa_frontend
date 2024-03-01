@@ -1,0 +1,60 @@
+.rulebook_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pdf_container{
+    background-color: rgb(186, 186, 186);
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 1px 1px gray;
+}
+.pdf_container:hover{
+    box-shadow: none;
+}
+.button_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.button_container button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    background-color: red;
+    box-shadow: 1px 1px gray;
+
+}
+.button_container button:hover{
+    box-shadow: none;
+}
+
+@media screen and (max-width:600px){
+    .pdf_container{
+        background-color: rgb(186, 186, 186);
+        display: flex;
+        height: 200px;
+        width: 200px;
+        border-radius: 5px;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1280px){
+    .pdf_container{
+        background-color: rgb(186, 186, 186);
+        display: flex;
+        height: 250px;
+        width: 250px;
+        border-radius: 5px;
+        gap: 10px;
+    }
+}

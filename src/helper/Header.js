@@ -2,12 +2,8 @@ import "../assets/css/header.css"
 import logo from "../assets/images/Aisa_logo.jpeg"
 import dkte_logo from "../assets/images/Dkte-logo.jpg"
 import { useState } from "react"
-import Event from "../mainPages/Event"
-import Gallery from "../mainPages/Gallery"
-import About from "../mainPages/About"
-import Members from "../mainPages/Members"
 import { Link } from "react-router-dom"
-import Home from "../mainPages/Home"
+
 
 function Header(){
     const [changelogo, setlogo] = useState(logo);

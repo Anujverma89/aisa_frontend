@@ -1,8 +1,16 @@
+import "../assets/css/rulebook.css"
+
 function Rulebook(){
     return(
-        <>
-            <h1>This is rule book</h1>
-        </>
+       <div className="rulebook_container">
+        <div className="pdf_container">
+            
+        </div>
+        <div className="button_container">
+            <button >View Rulebook</button>
+            <button >Download Rulebook</button>
+        </div>
+       </div>
     )
 }
 

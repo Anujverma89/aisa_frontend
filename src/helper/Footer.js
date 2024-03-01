@@ -24,7 +24,7 @@ function Footer(){
                 </div>
 
                 <div className="bottom_location_details">
-                    <img src={map} height={300} width={300} alt="description"/>
+                    <img src={map} alt="description" className="locationImage"/>
                 </div>
 
                 <div className="bottom_link_section">

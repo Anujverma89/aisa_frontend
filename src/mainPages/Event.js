@@ -2,30 +2,30 @@ import "../assets/css/event.css"
 
 function Event(){
     return(
-        <div>
-            <div className="technicalevents">
+        <div className="eventMainContainer">
+            <div className="technicalevents eventmainbox">
                 <div className="eventIntroName">
-                    Technical Event
+                   Technical Events
                 </div>
-                <div className="technicalEventCard">
+                <div className="technicalEventCard eventcardcontainer">
 
                 </div>
             </div>
 
-            <div className="nontechnicalevent">
+            <div className="nontechnicalevent eventmainbox">
                 <div className="eventIntroName">
-
+                    Non Technical Events
                 </div>
-                <div className="nonTechnicalEventCard">
+                <div className="nonTechnicalEventCard eventcardcontainer">
 
                 </div>
             </div>
 
-            <div className="careerdevelopmentevent">
+            <div className="careerdevelopmentevent eventmainbox">
                 <div className="eventIntroName">
-
+                    Career Development Events
                 </div>
-                <div className="nonTechnicalEventCard">
+                <div className="nonTechnicalEventCard eventcardcontainer">
 
                 </div>
             </div>

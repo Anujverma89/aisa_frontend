@@ -8,8 +8,7 @@
 
 /* brand intorduction and motive */
 .branding_motive{
-    /* margin-top: 20px; */
-    background-color: red;
+    background-color:  rgba(96, 96, 96, 0.069);
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -23,8 +22,8 @@
 /* notice board section */
 .notice_board{
     width: 100%;
-    height: 450px;
-    background-color: red;
+    height: 400px;
+    background-color:  rgba(96, 96, 96, 0.069);
 }
 
 
@@ -33,7 +32,7 @@
 .pastEventOuterContainer{
     height: 400px;
     width: 100%;
-    background-color: red;
+    background-color:  rgba(96, 96, 96, 0.069);
 }
 
 
@@ -45,7 +44,6 @@
     align-items: center;
     max-width: 80%;
     width: 80%;
-    background-color: red;
 }
 .inspirations_section{
    
@@ -54,7 +52,6 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
-    background-color: red;
 }
 .data_card{
     max-height: 300px;
@@ -75,39 +72,74 @@
 
 
 
-
 /* feedback section */
+.feedBack_container{
+    display: flex;
+    justify-content: center;
+}
 .feedback_room{
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.feedbackbtn{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
 }
 
 
 /* handeling responsive design */
 /* mobile device */
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
     .notice_board{
         height: 250px;
     }
     .branding_motive{
-        height: 300px;
+        height: 250px;
+        margin-top: 1px;
     }
     .pastEventOuterContainer{
         height: 250px;
+    }
+    .feedback_room{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .feedbackbtn{
+        background-color: red;
+        border: none;
+        border-radius: 3px;
+        padding: 2px 25px 2px 25px;
+    }
+    .feedBack_container h5{
+        text-align: center;
+        font-size: 14px;
     }
 }
 
 
 /* medium devices small laptop and tablets */
-@media screen and (min-width:481px) and (max-width:1280px){
+@media screen and (min-width:601px) and (max-width:1280px){
     .notice_board{
-        height: 350px;
+        height: 300px;
     }
     .branding_motive{
-        height: 400px;
+        height: 300px;
+        margin-top: 1px;
     }
     .pastEventOuterContainer{
-        height: 350px;
+        height: 300px;
     }
+    
 }
 
 @media screen and (min-width:1281px){

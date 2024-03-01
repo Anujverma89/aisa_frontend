@@ -1,3 +1,77 @@
-.technicalevents{
-    background-color: red;
+.eventmainbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.eventmainbox{
+    margin-bottom: 30px;
+}
+
+
+/* media query for small device */
+@media screen and (max-width:600px){
+    .eventIntroName{
+        background-color: rgba(96, 96, 96, 0.069);
+        width: 250px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        
+    }
+    .eventcardcontainer{
+        height: 250px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.069);
+    }
+
+
+}
+
+@media screen and (min-width:601px) and (max-width:1280px){
+    .eventIntroName{
+        background-color: rgba(96, 96, 96, 0.069);
+        width: 350px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        
+    }
+    .eventcardcontainer{
+        height: 300px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.069);
+    }
+}
+
+@media screen and (min-width:1281px){
+    .eventIntroName{
+        background-color: rgba(96, 96, 96, 0.069);
+        width: 500px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        
+    }
+    .eventcardcontainer{
+        height: 350px;
+        width: 100%;
+        background-color: rgba(96, 96, 96, 0.069);
+    }
 }

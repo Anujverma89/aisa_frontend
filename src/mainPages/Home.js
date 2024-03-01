@@ -1,6 +1,5 @@
 import "../assets/css/home.css"
-import { useState } from "react";
-import data from "../events.json"
+import { Link } from "react-router-dom"
 
 function Home(){
     let i=0;
@@ -59,7 +58,7 @@ function Home(){
                 <div className="feedBack_container">
                     <div className="feedback_room">
                         <div className="text"><h5>Want to give us Suggestions or Feedback ?</h5></div>
-                        <div><button>Give Feedback</button></div>
+                        <Link to = "/feedback" className="navigationLink" ><button className="feedbackbtn">Give Feedback</button></Link>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,5 @@
+import "../assets/css/certificate.css"
+
 let certobj = ["asdfghjkl","sjkdfhakjsdfh"];
 
 function Certificate(){
@@ -17,11 +19,17 @@ function Certificate(){
 
 
     return(
-        <div>
-            <form action="/gochole"method="get" onSubmit={findCertificate}>
-                <label>Enter Uniqe Registration UID sent on your email Id while Registration</label>
-                <input type="text" placeholder="Registration ID" name="registrationID"></input>
-                <button type="submit">Get Certificate</button>
+        <div className="certificate_container">
+            <form action="/gochole"method="get" onSubmit={findCertificate} >
+                <div className="form_container">
+                    <h5>Enter Uniqe Registration UID sent on your email Id while Registration</h5>
+                    
+                    <input type="text" placeholder="Enter Registration ID" name="registrationID"></input>
+        
+                    <div className="button_container">
+                        <button type="submit">Get Certificate</button>
+                    </div>
+                </div>
             </form>
         </div>
     )

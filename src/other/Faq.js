@@ -1,10 +1,13 @@
+import "../assets/css/faq.css"
+import d from "../helper/data.js"
+
 function Faq(){
     return(
-        <>
-            <h1>
-                THIS IS FAQS page we will update soon
-            </h1>
-        </>
+        <div className="faq_container">
+            {d.map((data)=>{
+                console.log(data)
+            })}
+        </div>
     )
 }
 

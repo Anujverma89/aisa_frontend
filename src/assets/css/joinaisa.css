@@ -1,0 +1,155 @@
+/* not accepting deisgn section */
+
+.join_aisa_container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 150px;
+}
+
+.NotAccepting{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    width: 70%;
+    flex-direction: column;
+    gap: 40px;
+}
+.connectwithus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.connectwithusform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.connectwithusform input{
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px 5px 10px;
+    background-color: #bdf2f1;
+    border-radius: 4px;
+}
+
+.connectwithusform button{
+    border: none;
+    height: 35px;
+    width:200px;
+    padding: 5px 10px 5px 10px;
+    background-color: red;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+
+/* joining form design */
+.volunteer_form{
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+.joining_form{
+    background-color: #ffe9e9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.aisa_registration_form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.aisa_registration_form input{
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+.aisa_registration_form select{
+    border: none;
+    padding: 7px 10px 7px 10px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.aisa_registration_form input,select:focus{
+   outline: none;
+}
+
+.aisa_registration_form button{
+    background-color: red;
+    border: none;
+    padding: 5px 30px 5px 30px;
+    box-shadow: 1px 1px 1px gray;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.departmentInput{
+    text-align: center;
+}
+
+
+/* query for small device */
+@media screen and (max-width:300px){
+    joining_form{
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:301px) and (max-width:600px){
+    .joining_form{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+
+
+/* query for medium device */
+@media screen and (min-width:601px) and (max-width:1280px){
+    .joining_form{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* query for large device */
+@media screen and (min-width:1281px){
+    .joining_form{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
